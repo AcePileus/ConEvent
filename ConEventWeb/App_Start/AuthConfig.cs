@@ -22,9 +22,9 @@ namespace ConEventWeb
             //    consumerKey: "",
             //    consumerSecret: "");
 
-            //OAuthWebSecurity.RegisterFacebookClient(
-            //    appId: "",
-            //    appSecret: "");
+            OAuthWebSecurity.RegisterFacebookClient(
+                appId: "600689956663774",
+                appSecret: "c5f23aeef4b72caedd36d1a88240c8dd");
 
             //OAuthWebSecurity.RegisterGoogleClient();
         }
