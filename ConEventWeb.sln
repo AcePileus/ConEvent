@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConEventWeb", "ConEventWeb\ConEventWeb.csproj", "{E425EBF8-4F09-43AC-92A0-3A061854AD55}"
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ConEventService", "ConEventService\ConEventService\ConEventService.ccproj", "{09FDF884-895D-460E-BFB2-2EB8EAAF206F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConEventServiceRole", "WCFServiceWebRole1\ConEventServiceRole.csproj", "{3E92ABE1-EC59-4296-9E80-E447FBDAC08E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E425EBF8-4F09-43AC-92A0-3A061854AD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E425EBF8-4F09-43AC-92A0-3A061854AD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E425EBF8-4F09-43AC-92A0-3A061854AD55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FDF884-895D-460E-BFB2-2EB8EAAF206F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FDF884-895D-460E-BFB2-2EB8EAAF206F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FDF884-895D-460E-BFB2-2EB8EAAF206F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FDF884-895D-460E-BFB2-2EB8EAAF206F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E92ABE1-EC59-4296-9E80-E447FBDAC08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E92ABE1-EC59-4296-9E80-E447FBDAC08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E92ABE1-EC59-4296-9E80-E447FBDAC08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E92ABE1-EC59-4296-9E80-E447FBDAC08E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
