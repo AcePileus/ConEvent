@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ConEventAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="test">test</string>
+    <string name="test2">test2</string>
+    <string name="takePicture">Ta bild</string>
+    <string name="choose_people">Välj personer</string>
+    <string name="send_event">Skicka</string>
+    <string name="done">Done</string>
+    <string name="get_location">Hämta plats</string>
+    <string name="show_full_image">Show full image</string>
+    <string name="image_caption">Bildtext</string>
+    <string name="view_logs">Titta på loggen</string>
+    <string name="logs">Loggar</string>
+    <string name="settings">Inställningar</string>
+    <string name="setting_condensed">Inst.</string>
+    <string name="view_history">Historik</string>
+    <string name="view_history_condensed">Hist</string>
+
+</resources>

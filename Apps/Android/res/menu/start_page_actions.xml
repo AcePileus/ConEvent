@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/itemSettings"
+        android:title="@string/settings"
+        android:titleCondensed="@string/setting_condensed"
+        android:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/itemViewHistory"
+        android:title="@string/view_history"
+        android:titleCondensed="@string/view_history_condensed"
+        android:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/itemViewLogs"
+        android:title="@string/view_logs"
+        android:titleCondensed="@string/logs"
+        android:showAsAction="ifRoom">
+    </item>
+
+</menu>

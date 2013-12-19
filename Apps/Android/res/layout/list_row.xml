@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/historyImagePathTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="21dp" />
+    
+    <TextView
+        android:id="@+id/historyFileNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="21dp"
+        android:layout_alignLeft="@+id/historyImagePathTextView"
+        android:layout_below="@+id/historyImagePathTextView" />
+
+    <TextView
+        android:id="@+id/historyPersonsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/historyFileNameTextView"
+        android:layout_below="@+id/historyFileNameTextView"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:id="@+id/historyCaptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/historyPersonsTextView"
+        android:layout_below="@+id/historyPersonsTextView"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:id="@+id/historyEventDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/historyCaptionTextView"
+        android:layout_below="@+id/historyCaptionTextView"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:id="@+id/historyLatitudeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/historyEventDateTextView"
+        android:layout_alignLeft="@+id/historyEventDateTextView"
+        android:layout_marginTop="21dp" />
+    <TextView        
+        android:id="@+id/historyLongitudeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/historyLatitudeTextView"
+        android:layout_alignLeft="@+id/historyLatitudeTextView"
+        android:layout_marginTop="21dp" />
+    
+    <TextView
+        android:id="@+id/historyContentTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/historyLongitudeTextView"
+        android:layout_alignLeft="@+id/historyLongitudeTextView"
+        android:layout_marginTop="21dp" />
+    
+    <TextView
+        android:id="@+id/historyImageSizeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/historyContentTypeTextView"
+        android:layout_alignLeft="@+id/historyContentTypeTextView"
+        android:layout_marginTop="21dp" />
+    
+    <ImageView 
+        android:id="@+id/historyImageView"
+        android:layout_below="@+id/historyContentTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="asdf"
+        />"
+
+</RelativeLayout>
